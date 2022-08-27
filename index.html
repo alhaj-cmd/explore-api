@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       .post  {background-color:red;}
+    </style>
 </head>
 <body>
     <button onclick="loadData()" >click</button>
     <button onclick="loadUser()" >click</button>
+    <button onclick="loadClient()" >click</button>
+    <div class="user-list">
+        <ul id="user-data"></ul>
+    </div>
     <script src="user.js"></script>
     <script src="fatch.js"> </script>
+    <script src="posts.js"></script>
 </body>
 </html>
